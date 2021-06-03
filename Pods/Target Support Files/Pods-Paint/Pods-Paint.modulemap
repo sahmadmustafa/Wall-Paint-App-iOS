@@ -1,0 +1,6 @@
+module Pods_Paint {
+  umbrella header "Pods-Paint-umbrella.h"
+
+  export *
+  module * { export * }
+}

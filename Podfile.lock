@@ -1,0 +1,38 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - CropViewController (2.6.0)
+  - IQKeyboardManager (6.5.6)
+
+DEPENDENCIES:
+  - AFNetworking
+  - CropViewController
+  - IQKeyboardManager
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - CropViewController
+    - IQKeyboardManager
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CropViewController: 7093b39ec3cb508531b22d35773e06cecd7378d8
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+
+PODFILE CHECKSUM: 04e25deaedf7a45f90ca7a47bb5093fb6a89147d
+
+COCOAPODS: 1.10.1
