@@ -20,7 +20,7 @@
                             <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="crop.php.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="1d1-SC-V1c">
                                 <rect key="frame" x="0.0" y="-44" width="414" height="984"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="D8C-s8-Sla">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo998" translatesAutoresizingMaskIntoConstraints="NO" id="D8C-s8-Sla">
                                 <rect key="frame" x="87" y="143" width="240" height="172"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="172" id="C1r-Jr-ZU5"/>
@@ -54,7 +54,7 @@
                                     <action selector="openGallery:" destination="Nc1-aW-5g1" eventType="touchUpInside" id="nmN-c8-pcw"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quickly transform your property inside and out with MELEREI REICHETSEDER" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1s0-Bb-gR3">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quickly transform your property inside and out with FlooringPaint" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1s0-Bb-gR3">
                                 <rect key="frame" x="68" y="536" width="278" height="78"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="78" id="jiq-XF-5w9"/>
@@ -63,7 +63,7 @@
                                 <color key="textColor" red="0.95942574739999997" green="0.83644884819999998" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWu-yj-DTx">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWu-yj-DTx">
                                 <rect key="frame" x="363" y="48" width="31" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.41176470590000003" green="0.5450980392" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -161,7 +161,7 @@
                                     <constraint firstAttribute="height" constant="55.5" id="r74-Oq-MJW"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="dP4-b4-IxA">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo998" translatesAutoresizingMaskIntoConstraints="NO" id="dP4-b4-IxA">
                                 <rect key="frame" x="145" y="771" width="124" height="91"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="91" id="b9x-il-o8F"/>
@@ -295,7 +295,7 @@
                                             <constraint firstAttribute="height" constant="46" id="yzs-bx-oeA"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <state key="normal" title="Next">
+                                        <state key="normal" title="Share Selected Colors">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -1046,7 +1046,6 @@
     </scenes>
     <resources>
         <image name="Info11.png" width="445" height="481"/>
-        <image name="Logo.png" width="1024" height="672"/>
         <image name="arrow.clockwise" catalog="system" width="115" height="128"/>
         <image name="camera.fill" catalog="system" width="128" height="94"/>
         <image name="chevron.down" catalog="system" width="128" height="72"/>
@@ -1056,6 +1055,7 @@
         <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="info.circle.fill" catalog="system" width="128" height="121"/>
         <image name="lOgout11" width="112.5" height="112.5"/>
+        <image name="logo998" width="256" height="256"/>
         <image name="minus.circle" catalog="system" width="128" height="121"/>
         <image name="paintpalette.fill" catalog="system" width="128" height="105"/>
         <image name="person.fill.badge.plus" catalog="system" width="128" height="124"/>

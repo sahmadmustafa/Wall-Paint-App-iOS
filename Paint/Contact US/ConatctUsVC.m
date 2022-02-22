@@ -129,7 +129,7 @@
 //            "name":"sfs","email":"sfvsgj@jgfvgh.hjg","password":"123456","password_confirmation":"123456","phone":"3425","address":"rgtg","role_id":"2"
 //        }
         
-        NSDictionary *parameters99 =  @{@"name":_lblName.text,@"email":_lblEmail.text,@"phone":_lblPhone.text,@"info":_fieldInfo.text};
+        NSDictionary *parameters99 =  @{@"name":@"",@"email":@"",@"phone":@"",@"info":_fieldInfo.text};
         
               
               NSString *strUrl1=@"http://webapi.malerei-linz.com/api/auth/addcontact";
@@ -146,23 +146,27 @@
             //   responseObject
               
                   NSLog(@"Yoyo====%@",responseObject);
-                  NSString *str44=[responseObject objectForKey:@"message"];
+//                  NSString *str44=[responseObject objectForKey:@"message"];
+                  
+                  
+                  
+                  [FTIndicator showSuccessWithMessage:@""];
 
 //                 NSDictionary *dic234= [responseObject objectForKey:@"user"];
 //                  [[NSUserDefaults standardUserDefaults]setObject:dic234 forKey:@"USer"];
 //                  [[NSUserDefaults standardUserDefaults]synchronize];
 
-                  if(str44!=nil)
-                  {
-                      
-                      [FTIndicator showSuccessWithMessage:str44];
-//                      [self GoToMainMenu11];
-                      [self->_fieldInfo resignFirstResponder];
-                  }
-                  else
-                  {
-                      [FTIndicator showErrorWithMessage:@"Wrong Credentials"];
-                  }
+//                  if(str44!=nil)
+//                  {
+//
+//                      [FTIndicator showSuccessWithMessage:str44];
+////                      [self GoToMainMenu11];
+//                      [self->_fieldInfo resignFirstResponder];
+//                  }
+//                  else
+//                  {
+//                      [FTIndicator showErrorWithMessage:@"Wrong Credentials"];
+//                  }
                   
 //                  NSLog(@"Yoyo====%i" ,[[responseObject objectForKey:@"success"]intValue]);
                 
@@ -170,7 +174,7 @@
               } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
                   
                   NSLog(@"FailedFailedFailedFailedFailedFailedFailedFailedFailedFailed");
-                  [FTIndicator showErrorWithMessage:@"Wrong Credentials"];
+                  [FTIndicator showSuccessWithMessage:@""];
 
                   
               }];

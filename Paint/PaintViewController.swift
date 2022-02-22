@@ -114,23 +114,36 @@ class PaintViewController: UIViewController,UITableViewDelegate, UITableViewData
         let defaults = UserDefaults.standard
         let myarray = defaults.stringArray(forKey: "SavedStringArray") ?? [String]()
         print(myarray)
+        let stringRepresentation = myarray.joined(separator:"\n")
         
         
         
-        print(colorPicker.hexLabel.text!)
- 
+        let textToShare = String(stringRepresentation)
+        let activityVC = UIActivityViewController(activityItems: [textToShare], applicationActivities: nil)
+        activityVC.excludedActivityTypes = [
+            .print,
+            .copyToPasteboard,
+            .assignToContact,
+            .saveToCameraRoll
+        ] //Exclude whichever aren't relevant
+        present(activityVC, animated: true)
         
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let objRestuarantReviewsViewController = storyboard.instantiateViewController(withIdentifier: "CalculatePaint") as? CalculatePaint
-    
- 
         
-        objRestuarantReviewsViewController?.strValueHex=colorPicker.hexLabel.text!
-
-        if let aController = objRestuarantReviewsViewController
-        {
-            navigationController?.pushViewController(aController, animated: true)
-        }
+//
+//        print(colorPicker.hexLabel.text!)
+//
+//
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        let objRestuarantReviewsViewController = storyboard.instantiateViewController(withIdentifier: "CalculatePaint") as? CalculatePaint
+//
+//
+//
+//        objRestuarantReviewsViewController?.strValueHex=colorPicker.hexLabel.text!
+//
+//        if let aController = objRestuarantReviewsViewController
+//        {
+//            navigationController?.pushViewController(aController, animated: true)
+//        }
     }
     @IBAction func Calculate(_ sender: UIBarButtonItem)
     {

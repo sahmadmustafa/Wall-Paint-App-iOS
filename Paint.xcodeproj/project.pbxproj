@@ -11,6 +11,12 @@
 		1819D75C262B97B100C560E8 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819D75A262B97B100C560E8 /* Logo.png */; };
 		181E469726320C5700B435B1 /* ORImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 181E469626320C5700B435B1 /* ORImage.png */; };
 		181E469C2632455600B435B1 /* CalculatePaint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E469B2632455600B435B1 /* CalculatePaint.swift */; };
+		183F458727305A5C009057BB /* FTIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F457A27305A5B009057BB /* FTIndicator.m */; };
+		183F458827305A5C009057BB /* FTProgressIndicator.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 183F457C27305A5C009057BB /* FTProgressIndicator.bundle */; };
+		183F458927305A5C009057BB /* RTS2TFZF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 183F457E27305A5C009057BB /* RTS2TFZF.jpg */; };
+		183F458A27305A5C009057BB /* FTProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F457F27305A5C009057BB /* FTProgressIndicator.m */; };
+		183F458B27305A5C009057BB /* FTNotificationIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F458127305A5C009057BB /* FTNotificationIndicator.m */; };
+		183F458C27305A5C009057BB /* FTToastIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F458527305A5C009057BB /* FTToastIndicator.m */; };
 		184BB94B2630BF1400CE0809 /* Infoo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184BB94A2630BF1400CE0809 /* Infoo.swift */; };
 		18561651263B5DA200D26DE0 /* IQDropDownTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 18561650263B5DA200D26DE0 /* IQDropDownTextField.m */; };
 		18612F9926362E1000A0288E /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1892E242263370010008DE29 /* opencv2.framework */; };
@@ -18,15 +24,9 @@
 		1892E21D26336DF60008DE29 /* PaintUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = ED757433235DAFD9004967A1 /* PaintUITests.xctest */; };
 		1892E26C263391010008DE29 /* Info11.png in Resources */ = {isa = PBXBuildFile; fileRef = 1892E26B263391010008DE29 /* Info11.png */; };
 		1892E2762633920C0008DE29 /* ConatctUsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892E2752633920C0008DE29 /* ConatctUsVC.m */; };
-		18937AF9262E0E1E0045E93F /* FTNotificationIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18937AEE262E0E1D0045E93F /* FTNotificationIndicator.m */; };
-		18937AFA262E0E1E0045E93F /* FTProgressIndicator.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18937AF2262E0E1E0045E93F /* FTProgressIndicator.bundle */; };
-		18937AFB262E0E1E0045E93F /* FTProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18937AF4262E0E1E0045E93F /* FTProgressIndicator.m */; };
-		18937AFC262E0E1E0045E93F /* FTToastIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18937AF6262E0E1E0045E93F /* FTToastIndicator.m */; };
-		18937AFD262E0E1E0045E93F /* FTIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18937AF8262E0E1E0045E93F /* FTIndicator.m */; };
 		18937B1A262E1DD10045E93F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18937B19262E1DD10045E93F /* CoreMedia.framework */; };
 		18937B1C262E1DDF0045E93F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18937B1B262E1DDE0045E93F /* AVFoundation.framework */; };
 		18937B48262E20AF0045E93F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18937B47262E20AF0045E93F /* AssetsLibrary.framework */; };
-		18937B4D262E25F70045E93F /* crop.php.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18937B4C262E25F60045E93F /* crop.php.jpeg */; };
 		18937B5A262E328D0045E93F /* Paint1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18937B59262E328D0045E93F /* Paint1.swift */; };
 		18937B91262E3AB10045E93F /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18937B90262E3AB10045E93F /* MainTabBarViewController.swift */; };
 		40397584F51CCEBDAFC9AA81 /* libPods-Paint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B526C949BBF9F986A8E0F7C2 /* libPods-Paint.a */; };
@@ -68,6 +68,16 @@
 		1819D75A262B97B100C560E8 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 		181E469626320C5700B435B1 /* ORImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ORImage.png; sourceTree = "<group>"; };
 		181E469B2632455600B435B1 /* CalculatePaint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatePaint.swift; sourceTree = "<group>"; };
+		183F457A27305A5B009057BB /* FTIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTIndicator.m; sourceTree = "<group>"; };
+		183F457C27305A5C009057BB /* FTProgressIndicator.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FTProgressIndicator.bundle; sourceTree = "<group>"; };
+		183F457D27305A5C009057BB /* FTProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTProgressIndicator.h; sourceTree = "<group>"; };
+		183F457E27305A5C009057BB /* RTS2TFZF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RTS2TFZF.jpg; sourceTree = "<group>"; };
+		183F457F27305A5C009057BB /* FTProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTProgressIndicator.m; sourceTree = "<group>"; };
+		183F458127305A5C009057BB /* FTNotificationIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTNotificationIndicator.m; sourceTree = "<group>"; };
+		183F458227305A5C009057BB /* FTNotificationIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTNotificationIndicator.h; sourceTree = "<group>"; };
+		183F458327305A5C009057BB /* FTIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTIndicator.h; sourceTree = "<group>"; };
+		183F458527305A5C009057BB /* FTToastIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTToastIndicator.m; sourceTree = "<group>"; };
+		183F458627305A5C009057BB /* FTToastIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTToastIndicator.h; sourceTree = "<group>"; };
 		184BB94A2630BF1400CE0809 /* Infoo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infoo.swift; sourceTree = "<group>"; };
 		1856164F263B5DA200D26DE0 /* IQDropDownTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQDropDownTextField.h; sourceTree = "<group>"; };
 		18561650263B5DA200D26DE0 /* IQDropDownTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQDropDownTextField.m; sourceTree = "<group>"; };
@@ -75,19 +85,9 @@
 		1892E26B263391010008DE29 /* Info11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Info11.png; sourceTree = "<group>"; };
 		1892E2742633920C0008DE29 /* ConatctUsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConatctUsVC.h; sourceTree = "<group>"; };
 		1892E2752633920C0008DE29 /* ConatctUsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConatctUsVC.m; sourceTree = "<group>"; };
-		18937AEE262E0E1D0045E93F /* FTNotificationIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTNotificationIndicator.m; sourceTree = "<group>"; };
-		18937AEF262E0E1D0045E93F /* FTNotificationIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTNotificationIndicator.h; sourceTree = "<group>"; };
-		18937AF0262E0E1D0045E93F /* FTIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTIndicator.h; sourceTree = "<group>"; };
-		18937AF2262E0E1E0045E93F /* FTProgressIndicator.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FTProgressIndicator.bundle; sourceTree = "<group>"; };
-		18937AF3262E0E1E0045E93F /* FTProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTProgressIndicator.h; sourceTree = "<group>"; };
-		18937AF4262E0E1E0045E93F /* FTProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTProgressIndicator.m; sourceTree = "<group>"; };
-		18937AF6262E0E1E0045E93F /* FTToastIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTToastIndicator.m; sourceTree = "<group>"; };
-		18937AF7262E0E1E0045E93F /* FTToastIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTToastIndicator.h; sourceTree = "<group>"; };
-		18937AF8262E0E1E0045E93F /* FTIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTIndicator.m; sourceTree = "<group>"; };
 		18937B19262E1DD10045E93F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		18937B1B262E1DDE0045E93F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		18937B47262E20AF0045E93F /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		18937B4C262E25F60045E93F /* crop.php.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crop.php.jpeg; sourceTree = "<group>"; };
 		18937B59262E328D0045E93F /* Paint1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paint1.swift; sourceTree = "<group>"; };
 		18937B90262E3AB10045E93F /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		4798AA6BC46E6B586BDBE311 /* Pods-Paint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paint.debug.xcconfig"; path = "Target Support Files/Pods-Paint/Pods-Paint.debug.xcconfig"; sourceTree = "<group>"; };
@@ -150,6 +150,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		183F457B27305A5C009057BB /* FTProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				183F457C27305A5C009057BB /* FTProgressIndicator.bundle */,
+				183F457D27305A5C009057BB /* FTProgressIndicator.h */,
+				183F457E27305A5C009057BB /* RTS2TFZF.jpg */,
+				183F457F27305A5C009057BB /* FTProgressIndicator.m */,
+			);
+			path = FTProgressIndicator;
+			sourceTree = "<group>";
+		};
+		183F458027305A5C009057BB /* FTNotificationIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				183F458127305A5C009057BB /* FTNotificationIndicator.m */,
+				183F458227305A5C009057BB /* FTNotificationIndicator.h */,
+			);
+			path = FTNotificationIndicator;
+			sourceTree = "<group>";
+		};
+		183F458427305A5C009057BB /* FTToastIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				183F458527305A5C009057BB /* FTToastIndicator.m */,
+				183F458627305A5C009057BB /* FTToastIndicator.h */,
+			);
+			path = FTToastIndicator;
+			sourceTree = "<group>";
+		};
 		1856164E263B5DA200D26DE0 /* IQDropDownTextField */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,42 +200,13 @@
 		18937AEC262E0E100045E93F /* Libs */ = {
 			isa = PBXGroup;
 			children = (
-				18937B4C262E25F60045E93F /* crop.php.jpeg */,
-				18937AF0262E0E1D0045E93F /* FTIndicator.h */,
-				18937AF8262E0E1E0045E93F /* FTIndicator.m */,
-				18937AED262E0E1D0045E93F /* FTNotificationIndicator */,
-				18937AF1262E0E1E0045E93F /* FTProgressIndicator */,
-				18937AF5262E0E1E0045E93F /* FTToastIndicator */,
+				183F458327305A5C009057BB /* FTIndicator.h */,
+				183F457A27305A5B009057BB /* FTIndicator.m */,
+				183F458027305A5C009057BB /* FTNotificationIndicator */,
+				183F457B27305A5C009057BB /* FTProgressIndicator */,
+				183F458427305A5C009057BB /* FTToastIndicator */,
 			);
 			path = Libs;
-			sourceTree = "<group>";
-		};
-		18937AED262E0E1D0045E93F /* FTNotificationIndicator */ = {
-			isa = PBXGroup;
-			children = (
-				18937AEE262E0E1D0045E93F /* FTNotificationIndicator.m */,
-				18937AEF262E0E1D0045E93F /* FTNotificationIndicator.h */,
-			);
-			path = FTNotificationIndicator;
-			sourceTree = "<group>";
-		};
-		18937AF1262E0E1E0045E93F /* FTProgressIndicator */ = {
-			isa = PBXGroup;
-			children = (
-				18937AF2262E0E1E0045E93F /* FTProgressIndicator.bundle */,
-				18937AF3262E0E1E0045E93F /* FTProgressIndicator.h */,
-				18937AF4262E0E1E0045E93F /* FTProgressIndicator.m */,
-			);
-			path = FTProgressIndicator;
-			sourceTree = "<group>";
-		};
-		18937AF5262E0E1E0045E93F /* FTToastIndicator */ = {
-			isa = PBXGroup;
-			children = (
-				18937AF6262E0E1E0045E93F /* FTToastIndicator.m */,
-				18937AF7262E0E1E0045E93F /* FTToastIndicator.h */,
-			);
-			path = FTToastIndicator;
 			sourceTree = "<group>";
 		};
 		49274CC4E23479AB2D9CDBB4 /* Pods */ = {
@@ -451,11 +451,11 @@
 				ED757422235DAFD9004967A1 /* LaunchScreen.storyboard in Resources */,
 				ED75741F235DAFD9004967A1 /* Assets.xcassets in Resources */,
 				181E469726320C5700B435B1 /* ORImage.png in Resources */,
-				18937AFA262E0E1E0045E93F /* FTProgressIndicator.bundle in Resources */,
-				18937B4D262E25F70045E93F /* crop.php.jpeg in Resources */,
 				1892E26C263391010008DE29 /* Info11.png in Resources */,
+				183F458827305A5C009057BB /* FTProgressIndicator.bundle in Resources */,
 				1819D75C262B97B100C560E8 /* Logo.png in Resources */,
 				1819D75B262B97B100C560E8 /* paint-preloader.gif in Resources */,
+				183F458927305A5C009057BB /* RTS2TFZF.jpg in Resources */,
 				ED75741D235DAFD4004967A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,23 +529,23 @@
 				ED757451235EE4D0004967A1 /* SceneDelegate.swift in Sources */,
 				EDAB0FAB235F064F004394C9 /* WallPainterBridge.mm in Sources */,
 				EDFF207D23604D82006893CD /* ColorModeToggleButton.swift in Sources */,
-				18937AFB262E0E1E0045E93F /* FTProgressIndicator.m in Sources */,
+				183F458C27305A5C009057BB /* FTToastIndicator.m in Sources */,
 				181E469C2632455600B435B1 /* CalculatePaint.swift in Sources */,
 				EDFF207E23604D82006893CD /* ChromaAddButton.swift in Sources */,
+				183F458B27305A5C009057BB /* FTNotificationIndicator.m in Sources */,
 				EDFF207A23604D82006893CD /* UIColor+Utilities.swift in Sources */,
 				ED75744F235DBAAC004967A1 /* PaintViewController.swift in Sources */,
-				18937AF9262E0E1E0045E93F /* FTNotificationIndicator.m in Sources */,
 				184BB94B2630BF1400CE0809 /* Infoo.swift in Sources */,
 				EDFF207F23604D82006893CD /* ChromaColorPicker.swift in Sources */,
 				EDFF207C23604D82006893CD /* ChromaShadeSlider.swift in Sources */,
+				183F458727305A5C009057BB /* FTIndicator.m in Sources */,
 				18561651263B5DA200D26DE0 /* IQDropDownTextField.m in Sources */,
 				18937B5A262E328D0045E93F /* Paint1.swift in Sources */,
 				EDFF207B23604D82006893CD /* ChromaHandle.swift in Sources */,
-				18937AFD262E0E1E0045E93F /* FTIndicator.m in Sources */,
-				18937AFC262E0E1E0045E93F /* FTToastIndicator.m in Sources */,
 				ED757416235DAFD4004967A1 /* AppDelegate.swift in Sources */,
 				EDAB0FAA235F064F004394C9 /* WallPainter.cpp in Sources */,
 				1892E2762633920C0008DE29 /* ConatctUsVC.m in Sources */,
+				183F458A27305A5C009057BB /* FTProgressIndicator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -723,8 +723,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 8;
-				DEVELOPMENT_TEAM = 2WX3AJGGNX;
+				CURRENT_PROJECT_VERSION = 32;
+				DEVELOPMENT_TEAM = 4633VCAR32;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -738,9 +738,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.malerei-reichetseder.ltd";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnaucalTech.FlooringPaint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = New2;
+				PROVISIONING_PROFILE_SPECIFIER = flooringPaint;
 				SWIFT_OBJC_BRIDGING_HEADER = "Paint/Paint-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -757,8 +757,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 8;
-				DEVELOPMENT_TEAM = 2WX3AJGGNX;
+				CURRENT_PROJECT_VERSION = 32;
+				DEVELOPMENT_TEAM = 4633VCAR32;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -772,9 +772,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.malerei-reichetseder.ltd";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnaucalTech.FlooringPaint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = New2;
+				PROVISIONING_PROFILE_SPECIFIER = flooringPaint;
 				SWIFT_OBJC_BRIDGING_HEADER = "Paint/Paint-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

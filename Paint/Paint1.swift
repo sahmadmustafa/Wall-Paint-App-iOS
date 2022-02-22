@@ -12,9 +12,9 @@ class Colors {
 //        let colorBottom = UIColor(red: 35.0 / 255.0, green: 2.0 / 255.0, blue: 2.0 / 255.0, alpha: 1.0).cgColor
 
         
-        let colorTop = UIColor(red: 255.0 / 255.0, green: 225.0 / 255.0, blue: 123.0 / 255.0, alpha: 1.0).cgColor
+        let colorTop = UIColor(red: 155.0 / 255.0, green: 150.0 / 255.0, blue: 70.0 / 255.0, alpha: 1.0).cgColor
         
-        let colorBottom = UIColor(red: 88.0 / 255.0, green: 133.0 / 255.0, blue: 59.0 / 255.0, alpha: 1.0).cgColor
+        let colorBottom = UIColor(red: 255.0 / 255.0, green: 142.0 / 255.0, blue: 42.0 / 255.0, alpha: 1.0).cgColor
 
 //        let colorTop = UIColor.yellow.cgColor
 //        let colorBottom = UIColor.green.cgColor
