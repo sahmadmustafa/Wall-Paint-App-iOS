@@ -11,3 +11,8 @@
 [![Platform](https://img.shields.io/cocoapods/p/BadgeSwift.svg?style=flat)](http://cocoadocs.org/docsets/BadgeSwift)
 # Wall-Paint-App-iOS
 Open CV complete Wall painting runnable solution for the programmers who wish to know how Open CV image filters work with custom libraries.
+# Similar Apps
+We can relate many similar app here given as follows:
+https://apps.apple.com/us/app/paint-my-wall-room-painting/id542998115
+https://apps.apple.com/us/app/house-paint/id1458095674
+
