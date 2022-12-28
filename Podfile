@@ -4,6 +4,9 @@ target 'Paint' do
  pod 'IQKeyboardManager'
  pod 'AFNetworking'
  pod 'CropViewController'
+ pod 'KRProgressHUD'
+ pod 'Firebase/Core'
+ pod 'Firebase/Messaging'
 
 # Add the pods for any other Firebase products you want to use in your app
 # For example, to use Firebase Authentication and Cloud Firestore
