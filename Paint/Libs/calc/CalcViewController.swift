@@ -28,12 +28,6 @@ class CalcViewController: UIViewController {
         
     //    self.navigationController?.isNavigationBarHidden = false
        
-        let appearance = UINavigationBarAppearance()
-        appearance.configureWithOpaqueBackground()
-        appearance.backgroundColor = UIColor(named: "themePrimaryColor")
-        appearance.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
-        self.navigationItem.standardAppearance = appearance
-        self.navigationItem.scrollEdgeAppearance = appearance
 
         
         
