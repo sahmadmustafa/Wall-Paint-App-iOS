@@ -30,6 +30,8 @@
 		18937B5A262E328D0045E93F /* Paint1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18937B59262E328D0045E93F /* Paint1.swift */; };
 		18937B91262E3AB10045E93F /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18937B90262E3AB10045E93F /* MainTabBarViewController.swift */; };
 		40397584F51CCEBDAFC9AA81 /* libPods-Paint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B526C949BBF9F986A8E0F7C2 /* libPods-Paint.a */; };
+		6ADD5303295BEFD000278D5C /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADD5301295BEFCF00278D5C /* CalcViewController.swift */; };
+		6ADD5304295BEFD000278D5C /* EnterTax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADD5302295BEFCF00278D5C /* EnterTax.swift */; };
 		ED757416235DAFD4004967A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED757415235DAFD4004967A1 /* AppDelegate.swift */; };
 		ED75741D235DAFD4004967A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED75741B235DAFD4004967A1 /* Main.storyboard */; };
 		ED75741F235DAFD9004967A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED75741E235DAFD9004967A1 /* Assets.xcassets */; };
@@ -92,6 +94,8 @@
 		18937B90262E3AB10045E93F /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		4798AA6BC46E6B586BDBE311 /* Pods-Paint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paint.debug.xcconfig"; path = "Target Support Files/Pods-Paint/Pods-Paint.debug.xcconfig"; sourceTree = "<group>"; };
 		49F9881C8FE616661772A13A /* Pods-Paint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paint.release.xcconfig"; path = "Target Support Files/Pods-Paint/Pods-Paint.release.xcconfig"; sourceTree = "<group>"; };
+		6ADD5301295BEFCF00278D5C /* CalcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcViewController.swift; sourceTree = "<group>"; };
+		6ADD5302295BEFCF00278D5C /* EnterTax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterTax.swift; sourceTree = "<group>"; };
 		B526C949BBF9F986A8E0F7C2 /* libPods-Paint.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Paint.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED757412235DAFD4004967A1 /* Paint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED757415235DAFD4004967A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -200,6 +204,7 @@
 		18937AEC262E0E100045E93F /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				6ADD5300295BEFCF00278D5C /* calc */,
 				183F458327305A5C009057BB /* FTIndicator.h */,
 				183F457A27305A5B009057BB /* FTIndicator.m */,
 				183F458027305A5C009057BB /* FTNotificationIndicator */,
@@ -216,6 +221,15 @@
 				49F9881C8FE616661772A13A /* Pods-Paint.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		6ADD5300295BEFCF00278D5C /* calc */ = {
+			isa = PBXGroup;
+			children = (
+				6ADD5301295BEFCF00278D5C /* CalcViewController.swift */,
+				6ADD5302295BEFCF00278D5C /* EnterTax.swift */,
+			);
+			path = calc;
 			sourceTree = "<group>";
 		};
 		A5E9BA0BBB246FCBC6BF0123 /* Frameworks */ = {
@@ -528,8 +542,10 @@
 				18937B91262E3AB10045E93F /* MainTabBarViewController.swift in Sources */,
 				ED757451235EE4D0004967A1 /* SceneDelegate.swift in Sources */,
 				EDAB0FAB235F064F004394C9 /* WallPainterBridge.mm in Sources */,
+				6ADD5303295BEFD000278D5C /* CalcViewController.swift in Sources */,
 				EDFF207D23604D82006893CD /* ColorModeToggleButton.swift in Sources */,
 				183F458C27305A5C009057BB /* FTToastIndicator.m in Sources */,
+				6ADD5304295BEFD000278D5C /* EnterTax.swift in Sources */,
 				181E469C2632455600B435B1 /* CalculatePaint.swift in Sources */,
 				EDFF207E23604D82006893CD /* ChromaAddButton.swift in Sources */,
 				183F458B27305A5C009057BB /* FTNotificationIndicator.m in Sources */,
