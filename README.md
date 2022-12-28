@@ -8,7 +8,8 @@
 
 # Wall-Paint-App-iOS
 OpenCv libraries is ready to use in side ios swift app. C++ OpenCV library integrated inside ios swift Native Xcode p0roject that woirks awesome.
-Open CV complete Wall painting runnable solution for the programmers who wish to know how Open CV image filters work with custom libraries.
+Open CV complete Wall painting runnable solution for the programmers who wish to know how Open CV image filters work with custom libraries.Swift ios project is free source code.
+
 # Similar Apps
 We can relate many similar app here given as follows:
 # Paint My Wall - Room Painting
