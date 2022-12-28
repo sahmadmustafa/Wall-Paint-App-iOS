@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+@available(iOS 13.0, *)
 class HomeContainer: UITableViewController {
     @IBOutlet weak var topView1: UIView!
     @IBOutlet weak var topView2: UIView!
