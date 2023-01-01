@@ -6,7 +6,6 @@
 [![License](https://img.shields.io/cocoapods/l/BadgeSwift.svg?style=flat)](/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/BadgeSwift.svg?style=flat)](http://cocoadocs.org/docsets/BadgeSwift)
 
-
 # Wall-Paint-App-iOS
 Swift ios project is free source code.This project is made with UIKit swift ios.OpenCv libraries is ready to use in side ios swift app. C++ OpenCV library integrated inside ios swift Native Xcode project that woirks awesome.
 Open CV complete Wall painting runnable solution for the programmers who wish to know how Open CV image filters work with custom libraries.Swift ios project is free source code.Get ready start today from here!
