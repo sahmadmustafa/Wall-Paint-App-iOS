@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  Car Rental
+
+  Created by Clineu Iansen Junior on 21/09/19.
+  Copyright © 2019 Clineu Iansen Junior. All rights reserved.
+*/
+
+"vehicle_details.model.clean.clean" = "Clean";
+"vehicle_details.model.clean.regular" = "Regular";
+"vehicle_details.model.clean.very_clean" = "Very clean";
+"vehicle_details.model.transmission.automatic" = "Automatic";
+"vehicle_details.model.transmission.manual" = "Manual";
+
+"service_error.no_connection" = "You are not connected to the Internet";
+"service_error.timeout" = "Request timeout. Verify your Internet connection";
+"service_error.invalid_response" = "Invalid response from server. Try again later";
+"service_error.invalid_url" = "Invalid request. Try again later";
+"service_error.decode_error" = "Invalid server response. Try again later";
+"service_error.api_error" = "Invalid server response. Try again later";
+
+"vehicle_list.result.empty_list" = "There's no vehicles available";

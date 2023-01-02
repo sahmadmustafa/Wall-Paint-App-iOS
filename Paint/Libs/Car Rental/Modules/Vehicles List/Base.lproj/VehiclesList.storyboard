@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Car Rentals-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="VehiclesListViewController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="VehiclesListViewController" customModule="Booking4Trip" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="fbs-22-tcC">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="537.5"/>
+                            </mapView>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0HU-YC-PKZ">
+                                <rect key="frame" x="0.0" y="517.5" width="414" height="378.5"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SsC-zY-Dhe">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="378.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="scrollIndicatorInsets" minX="0.0" minY="20" maxX="0.0" maxY="0.0"/>
+                                        <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="SsC-zY-Dhe" firstAttribute="top" secondItem="0HU-YC-PKZ" secondAttribute="top" id="502-1J-8RK"/>
+                                    <constraint firstAttribute="bottom" secondItem="SsC-zY-Dhe" secondAttribute="bottom" id="52J-ad-Xfc"/>
+                                    <constraint firstAttribute="trailing" secondItem="SsC-zY-Dhe" secondAttribute="trailing" id="Dk4-fF-aLb"/>
+                                    <constraint firstItem="SsC-zY-Dhe" firstAttribute="leading" secondItem="0HU-YC-PKZ" secondAttribute="leading" id="LUk-tX-9yb"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LXc-vy-NwP">
+                                <rect key="frame" x="370" y="473.5" width="36" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="LXc-vy-NwP" secondAttribute="height" multiplier="1:1" id="7EH-MU-0Kk"/>
+                                    <constraint firstAttribute="height" constant="36" id="bxw-4d-Gx8"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="4" minY="4" maxX="4" maxY="4"/>
+                                <state key="normal" image="ic_filter">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="TyG-1S-CFQ" kind="show" identifier="VehicleFilterSegue" id="az7-nO-MWM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0HU-YC-PKZ" firstAttribute="top" secondItem="LXc-vy-NwP" secondAttribute="bottom" constant="8" id="4mm-vq-QvW"/>
+                            <constraint firstItem="fbs-22-tcC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7x1-Op-Lvv"/>
+                            <constraint firstItem="0HU-YC-PKZ" firstAttribute="top" secondItem="fbs-22-tcC" secondAttribute="bottom" constant="-20" id="8W2-KI-HjT"/>
+                            <constraint firstItem="0HU-YC-PKZ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Rl6-T4-v2R"/>
+                            <constraint firstItem="fbs-22-tcC" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.6" id="UaM-5W-gVY"/>
+                            <constraint firstItem="LXc-vy-NwP" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="Yr0-0S-BiV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LXc-vy-NwP" secondAttribute="trailing" constant="8" id="ZrG-zc-QTc"/>
+                            <constraint firstItem="0HU-YC-PKZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eDU-iB-N3n"/>
+                            <constraint firstItem="fbs-22-tcC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fqI-uc-pmz"/>
+                            <constraint firstAttribute="bottom" secondItem="0HU-YC-PKZ" secondAttribute="bottom" id="vxv-vJ-pMK"/>
+                            <constraint firstItem="fbs-22-tcC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="wve-Ns-oVW"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Car Rentals" id="7PL-cI-f7F"/>
+                    <connections>
+                        <outlet property="containerView" destination="0HU-YC-PKZ" id="vWR-eE-PnM"/>
+                        <outlet property="mapView" destination="fbs-22-tcC" id="THW-7W-AhF"/>
+                        <outlet property="tableView" destination="SsC-zY-Dhe" id="ZYp-bh-txR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1957.9710144927537" y="137.94642857142856"/>
+        </scene>
+        <!--VehicleFilter-->
+        <scene sceneID="CIL-A4-1ot">
+            <objects>
+                <viewControllerPlaceholder storyboardName="VehicleFilter" id="TyG-1S-CFQ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="cq4-mO-aLG"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N7j-ks-Oak" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2578" y="138"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_filter" width="50" height="50"/>
+    </resources>
+</document>

@@ -7,6 +7,8 @@ target 'Paint' do
  pod 'KRProgressHUD'
  pod 'Firebase/Core'
  pod 'Firebase/Messaging'
+ pod 'Kingfisher'
+
 
 # Add the pods for any other Firebase products you want to use in your app
 # For example, to use Firebase Authentication and Cloud Firestore
