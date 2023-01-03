@@ -14,7 +14,6 @@ Open CV complete Wall painting runnable solution for the programmers who wish to
 
 ![Screen Recording 2022-12-29 at 1 56 13 AM](https://user-images.githubusercontent.com/25474407/209871770-7208677c-610c-4fde-b727-c5753c1cc271.gif)
 
-
 # Screenshots of app
 
 ![Simulator Screen Shot - iPhone 14 Pro - 2022-12-29 at 01 54 04](https://user-images.githubusercontent.com/25474407/209871806-dc69ec9b-4479-4dc2-ac2c-5da79b14d4a0.png)
